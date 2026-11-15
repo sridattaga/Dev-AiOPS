@@ -8,7 +8,7 @@
 # GitHub settings needed (see docs/CICD-EKS-GUIDE.md):
 #   secret   AWS_ROLE_ARN      IAM role from bootstrap (OIDC)
 #   variable AWS_REGION        optional, default us-east-1
-#   variable TF_STATE_BUCKET   optional, default telugu-pickles-tfstate-<account id>
+#####  variable TF_STATE_BUCKET   optional, default telugu-pickles-tfstate-<account id>
 name: Infrastructure
 
 on:
