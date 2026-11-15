@@ -8,7 +8,7 @@
 # GitHub settings needed (see docs/CICD-EKS-GUIDE.md):
 #   secret   AWS_ROLE_ARN   IAM role from projects/Infrastructure/bootstrap (OIDC, no keys)
 #   variable AWS_REGION     optional, default us-east-1
-# Without AWS_ROLE_ARN the pipeline still tests, builds and scans, then skips push/deploy.
+########Without AWS_ROLE_ARN the pipeline still tests, builds and scans, then skips push/deploy.
 name: App CI
 
 on:
